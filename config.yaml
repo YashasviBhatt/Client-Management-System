@@ -1,0 +1,14 @@
+CATEGORIES:
+ - person
+ - skill
+ - project
+
+RELATIONSHIPS:
+ 'project, person': is_being_developed_by
+ 'person, skill': proficient_in
+ 'project, skill': requires
+ 
+AUTHENTICATION:
+ uri: bolt://localhost:7687
+ username: neo4j
+ password: yashasvi
