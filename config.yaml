@@ -9,6 +9,6 @@ RELATIONSHIPS:
  'project, skill': requires
  
 AUTHENTICATION:
- uri: bolt://localhost:7687
- username: neo4j
- password: yashasvi
+ uri: add uri here
+ username: add username here
+ password: add password here
